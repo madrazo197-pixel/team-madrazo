@@ -53,8 +53,9 @@ footer {
   background-color: #dc3545 #dc3545;
   border: none;
 }
-.btn-danger:hover {
-  opacity: 0.8;
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
 }
 
 .whatsapp {
@@ -137,7 +138,9 @@ footer {
   flex-direction: column;
   height: 100%;
   transition: 0.3s;
+  border: none;
 }
+
 .card:hover {
   transform: scale(1.05);
 }
@@ -249,4 +252,15 @@ footer {
 }
 .formulario button:hover {
   opacity: 0.8;
+  .card-body {
+  color: #fff;
+}
+
+.card-body p {
+  color: #ccc;
+}
+
+.card h3 {
+  color: #fff;
+}
 }/*# sourceMappingURL=main.css.map */
