@@ -1,0 +1,73 @@
+.clases {
+  background-color: #0f172a;
+  text-align: center;
+  padding: 60px 20px;
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  min-height: 50px;
+}
+
+// RESPONSIVE
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}

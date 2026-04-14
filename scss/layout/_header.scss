@@ -1,0 +1,21 @@
+header {
+  background-color: $color-fondo;
+}
+
+.navbar {
+  padding: 15px;
+
+  .navbar-brand {
+    color: $color-principal;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .nav-link {
+    color: $color-texto;
+
+    &:hover {
+      color: $color-principal;
+    }
+  }
+}

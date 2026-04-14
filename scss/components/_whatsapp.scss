@@ -1,0 +1,40 @@
+// CARDS
+.card {
+  transition: 0.4s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// BOTONES
+.btn-danger {
+  background-color: $color-principal #dc3545;
+  border: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// BOTÓN WHATSAPP
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

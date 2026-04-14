@@ -1,0 +1,14 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+
+@import "base/base";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "components/whatsapp";
+
+@import "pages/home";
+@import "pages/clases";
+@import "pages/entrenadores";
+@import "pages/contacto";
